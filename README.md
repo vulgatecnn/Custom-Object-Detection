@@ -17,7 +17,7 @@ python object_detection/export_inference_graph.py \
 Attaction:
      3.1 After trained_checkpoint_prefix , you should add the floder name, "TRAIN"
      3.2 In train folder, you will see a lot of ckpt file , I choice the second largest ckpt file. If I choice the largest ckp file ,the script report a error.
-<linux>
+<text>
         -rwxrwxrwx 1 vulgate vulgate       277 6月   8 11:55 checkpoint*
 -rwxrwxrwx 1 vulgate vulgate  15306196 6月   7 09:30 events.out.tfevents.1528334980.vulgatepc*
 -rwxrwxrwx 1 vulgate vulgate  14753252 6月   7 09:33 events.out.tfevents.1528335171.vulgatepc*
@@ -49,7 +49,7 @@ Attaction:
 -rwxrwxrwx 1 vulgate vulgate     40511 6月   8 11:55 model.ckpt-21784.index*
 -rwxrwxrwx 1 vulgate vulgate   8285444 6月   8 11:55 model.ckpt-21784.meta*
 
-</linux>
+</text>
 
 
 
